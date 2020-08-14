@@ -1,0 +1,74 @@
+.wallpost-card{
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px 0px;
+    max-width: 800px;
+    overflow: hidden;
+    position: relative;
+}
+.wallpost-card .wallpost-card_user-info{
+    padding:0px 10px 10px 10px;
+}
+.wallpost-card .wallpost-card_user-info .wallpost-card_user-icon{
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+    margin: 5px;
+    float: left;
+}
+
+.wallpost-card .wallpost-card_user-info .more_info{
+    position: absolute;
+    right: 12px;
+    top: 20px;
+}
+
+.wallpost-card .wallpost-card_user-info .wallpost-card_user-sub_info{
+    margin: 9px;
+    display: inline-block;
+}
+.wallpost-card .wallpost-card_user-info .wallpost-card_user-sub_info strong{
+    font-weight: 800;
+}
+.wallpost-card .wallpost-card_user-info .wallpost-card_media{
+    width: 100%;
+}
+.wallpost-card .wallpost-card_content,
+.wallpost-card .wallpost-card_comment,
+.wallpost-card .wallpost-card_review-block{
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+.wallpost-card .wallpost-card_review-block{
+    max-width: 414px;
+    float: right;
+}
+.wallpost-card .wallpost-card_review-block div{
+    float: left;
+    width: 120px;
+}
+.wallpost-card .wallpost-card_comment{
+    border-top:1px solid #dddddd;
+}
+.wallpost-card .wallpost-card_comment textarea{
+    border: 0;
+    width: 100%;
+}
+.wallpost-card .wallpost-card_comment textarea, 
+.wallpost-card .wallpost-card_comment textarea:focus,
+.wallpost-card .wallpost-card_comment textarea:active{
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none; 
+    overflow: hidden;
+    height: auto;
+}
